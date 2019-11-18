@@ -3,6 +3,8 @@ import numToString from './numToString'
 const num: string = 3
 const str: null = numToString(3)
 
+///
+
 num = maybeLog(num)
 str = maybeLog(str)
 
@@ -20,6 +22,8 @@ function maybeLog (thing) {
 
   return thing
 }
+
+///
 
 let obj = {
   num,
